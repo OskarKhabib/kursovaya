@@ -1,0 +1,74 @@
+html
+{ 
+    background-image: url(https://masterpotoku.ru/wp-content/uploads/d/9/d/d9de82d7b5add0292e08884573658635.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+}
+header
+{ 
+    color:red;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    height: 150px;
+}
+.shapka
+{
+    background-color: rgba(0, 0, 0, 0.607);
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 900;
+    margin: 0 auto;
+}
+.osort
+{   
+    background-color: rgba(0, 0, 0, 0.607);
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.podr
+{   
+    color: red;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+}
+.k 
+{   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    
+}
+nav
+{
+    color: red;
+    font-size: 30pt;
+}
+@media screen and (max-width: 640px) {
+    body {font-size:110%;}
+    }
+    
+    @media screen and (max-width: 1024px) {
+     body {font-size:85%;}
+    }
+    
+    @media screen and (min-width: 1280px) {
+     body {font-size: 100%;}
+    }
